@@ -12,14 +12,22 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.photobasedsocialmediaappdemo.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_search"
+        android:name="com.example.photobasedsocialmediaappdemo.ui.search.SearchFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.photobasedsocialmediaappdemo.ui.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_video"
+        android:name="com.example.photobasedsocialmediaappdemo.ui.videos.VideosFragment"
+        android:label="@string/title_videos"
+        tools:layout="@layout/fragment_videos" />
+    <fragment
+        android:id="@+id/navigation_shop"
+        android:name="com.example.photobasedsocialmediaappdemo.ui.shop.ShopFragment"
+        android:label="@string/title_shop" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.photobasedsocialmediaappdemo.ui.profile.ProfileFragment"
+        android:label="@string/title_profile" />
 </navigation>
